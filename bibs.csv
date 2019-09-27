@@ -1,0 +1,107 @@
+title,Publisher,Abs
+A quest for the structure of intra-and postoperative surgical team networks: does the small-world property evolve over time?,Springer Vienna,"Objective: We examined the structure of intra- and postoperative case-collaboration networks
+among the surgical service providers in a quaternary-care academic medical center, using
+retrospective electronic medical record (EMR) data. We also analyzed the evolution of the
+network properties over time, as changes in nodes and edges can affect the network structure.
+Materials and Methods: We used de-identified intra- and postoperative data for adult patients,
+ages ≥ 21, who received nonambulatory/nonobstetric surgery at Shands at the University of
+Florida between June 1, 2011 and November 1, 2014. The intraoperative segment contained
+30,245 surgical cases, and the postoperative segment considered 30,202 hospitalizations.
+Results: Our results confirmed the existence of strict small world structure in both intra- and
+postoperative surgical team networks. The U-shape trend of the small world property indicates
+a decreasing trend in the small world property after an increasing period over time. Therefore,
+a sudden declining trend is expected in the future in both intra- and postoperative networks,
+since the small world property is currently at its peak. In addition, high network density was
+observed in the intraoperative segment and partially in postoperative one, representing the
+existence of cohesive clusters of providers. We also observed that the small world property is
+exhibited more in the intraoperative compared to the postoperative network. Analyzing the
+temporal aspects of the networks revealed the postoperative segment tends to lose its
+cohesiveness as the time passes. Finally, we observed the small-world structure is negatively
+related to the patients' outcome in both intra- and postoperative networks whereas the relation
+between the outcome and network density is positive.
+Conclusion: Small changes in graph-theoretic properties of the intra- and postoperative
+networks cause changes in the intensity of the structural properties. However, due to the special
+characteristics of the examined networks (e.g. high interconnectivity, team-oriented), the
+network is less likely to lose its structural properties unless the central hubs are removed. Our
+results highlight the importance of stability of personnel in key positions. This highlights the
+important role of the central players in the network that offers change-leaders the opportunity
+to quantify and target those nodes as mediators of process change."
+Improved predictive models for acute kidney injury with IDEA: Intraoperative Data Embedded Analytics,Public Library of Science,"Background
+Acute kidney injury (AKI) is a common complication after surgery that is associated with increased morbidity and mortality. The majority of existing perioperative AKI risk prediction models are limited in their generalizability and do not fully utilize intraoperative physiological time-series data. Thus, there is a need for intelligent, accurate, and robust systems to leverage new information as it becomes available to predict the risk of developing postoperative AKI.
+
+Methods
+A retrospective single-center cohort of 2,911 adults who underwent surgery at the University of Florida Health between 2000 and 2010 was utilized for this study. Machine learning and statistical analysis techniques were used to develop perioperative models to predict the risk of developing AKI during the first three days after surgery, first seven days after surgery, and overall (after surgery during the index hospitalization). The improvement in risk prediction was examined by incorporating intraoperative physiological time-series variables. Our proposed model enriched a preoperative model that produced a probabilistic AKI risk score by integrating intraoperative statistical features through a machine learning stacking approach inside a random forest classifier. Model performance was evaluated using the area under the receiver operating characteristic curve (AUC), accuracy, and Net Reclassification Improvement (NRI).
+
+Results
+The predictive performance of the proposed model is better than the preoperative data only model. The proposed model had an AUC of 0.86 (accuracy of 0.78) for the seven-day AKI outcome, while the preoperative model had an AUC of 0.84 (accuracy of 0.76). Furthermore, by integrating intraoperative features, the algorithm was able to reclassify 40% of the false negative patients from the preoperative model. The NRI for each outcome was AKI at three days (8%), seven days (7%), and overall (4%).
+
+Conclusions
+Postoperative AKI prediction was improved with high sensitivity and specificity through a machine learning approach that dynamically incorporated intraoperative data."
+MySurgeryRisk: development and validation of a machine-learning risk algorithm for major complications and death after surgery,LWW,"OBJECTIVE:
+To accurately calculate the risk for postoperative complications and death after surgery in the preoperative period using machine-learning modeling of clinical data.
+
+BACKGROUND:
+Postoperative complications cause a 2-fold increase in the 30-day mortality and cost, and are associated with long-term consequences. The ability to precisely forecast the risk for major complications before surgery is limited.
+
+METHODS:
+In a single-center cohort of 51,457 surgical patients undergoing major inpatient surgery, we have developed and validated an automated analytics framework for a preoperative risk algorithm (MySurgeryRisk) that uses existing clinical data in electronic health records to forecast patient-level probabilistic risk scores for 8 major postoperative complications (acute kidney injury, sepsis, venous thromboembolism, intensive care unit admission >48 hours, mechanical ventilation >48 hours, wound, neurologic, and cardiovascular complications) and death up to 24 months after surgery. We used the area under the receiver characteristic curve (AUC) and predictiveness curves to evaluate model performance.
+
+RESULTS:
+MySurgeryRisk calculates probabilistic risk scores for 8 postoperative complications with AUC values ranging between 0.82 and 0.94 [99% confidence intervals (CIs) 0.81-0.94]. The model predicts the risk for death at 1, 3, 6, 12, and 24 months with AUC values ranging between 0.77 and 0.83 (99% CI 0.76-0.85).
+
+CONCLUSIONS:
+We constructed an automated predictive analytics framework for machine-learning algorithm with high discriminatory ability for assessing the risk of surgical complications and death using readily available preoperative electronic health records data. The feasibility of this novel algorithm implemented in real time clinical workflow requires further testing."
+Does the Position of Surgical Service Providers in Intra-Operative Networks Matter? Analyzing the Impact of Influencing Factors on Patients' Outcome,ArXiv,"Objective: We analyzed the relation between surgical service providers’ network structure and
+surgical team size with patient outcome during the operation. We also did correlation analysis to
+evaluate the associations among the network structure measures in the intra-operative networks
+of surgical service providers.
+Materials and Methods: We focused on intra-operative networks of surgical service providers, in a
+quaternary-care academic medical center, using retrospective Electronic Medical Record (EMR) data.
+We used de-identified intra-operative data for adult patients, ages ≥ 21, who received
+nonambulatory/nonobstetric surgery in a main operating room at Shands at the University of Florida
+between June 1, 2011 and November 1, 2014. The intra-operative dataset contained 30,211 unique
+surgical cases. To perform the analysis, we created the networks of surgical service providers and
+calculated several network structure measures at both team and individual levels. We considered number
+of patients’ complications as the target variable and assessed its interrelations with the calculated
+network measures along with other influencing factors (e.g. surgical team size, type of surgery).
+Results: Our results confirm the significant role of interactions among surgical providers on patient
+outcome. In addition, we observed that highly central providers at the global network level are more
+likely to be associated with a lower number of surgical complications, while locally important providers
+might be associated with higher number of complications. We also found a positive relation between
+age of patients and number of complications.
+Conclusion: Improving surgical quality is an important issue that requires a precise evaluation of all
+the potential influencing factors. Although we cannot infer causality, our findings suggest that brokers
+and leaders, i.e. providers with high betweenness and eigenvector centralities respectively, are
+associated, in a very general sense, with lower number of complications. On the other hand, we found
+that being close to many other surgical providers may not be advantageous for patients’ outcome, in
+terms of number of complications. For certain types of surgeries, team consistency and surgical volume
+are associated with improved postoperative outcomes. However, each of these findings highlights the
+analytical potency of social network analysis in healthcare setting and points to the need for greater
+investigation linking medical domain specific mechanisms to the network structure measures. "
+DeepSOFA: a real-time continuous acuity score framework using deep learning,ArXiv,"Traditional methods for assessing illness severity and predicting in-hospital mortality among critically ill patients
+require time-consuming, error-prone calculations using static variable thresholds. These methods do not capitalize
+on the emerging availability of streaming electronic health record data or capture time-sensitive individual
+physiological patterns, a critical task in the intensive care unit. We propose a novel acuity score framework
+(DeepSOFA) that leverages temporal measurements and interpretable deep learning models to assess illness
+severity at any point during an ICU stay. We compare DeepSOFA with SOFA (Sequential Organ Failure
+Assessment) baseline models using the same model inputs and find that at any point during an ICU admission,
+DeepSOFA yields significantly more accurate predictions of in-hospital mortality. A DeepSOFA model developed in
+a public database and validated in a single institutional cohort had a mean AUC for the entire ICU stay of 0.90 (95%
+CI 0.90-0.91) compared with baseline SOFA models with mean AUC 0.79 (95% CI 0.79-0.80) and 0.85 (95% CI
+0.85-0.86). Deep models are well-suited to identify ICU patients in need of life-saving interventions prior to the
+occurrence of an unexpected adverse event and inform shared decision-making processes among patients,
+providers, and families regarding goals of care and optimal resource utilization. "
+Delirium prediction using machine learning models on predictive electronic health records data,IEEE,"Electronic Health Records are mainly designed to record relevant patient information during their stay in the hospital for administrative purposes. They additionally provide an efficient and inexpensive source of data for medical research, such as patient outcome prediction. In this study, we used preoperative Electronic Health Records to predict postoperative delirium. We compared the performance of seven machine learning models on delirium prediction: linear models, generalized additive models, random forests, support vector machine, neural networks, and extreme gradient boosting. Among the models evaluated in this study, random forests and generalized additive model outperformed the other models in terms of the overall performance metrics for prediction of delirium, particularly with respect to sensitivity. We found that age, alcohol or drug abuse, socioeconomic status, underlying medical issue, severity of medical problem, and attending surgeon can affect the risk of delirium."
+Ensemble classification of Alzheimer's disease and mild cognitive impairment based on complex graph measures from diffusion tensor images,Frontiers,"The human brain is a complex network of interacting regions. The gray matter regions of brain are interconnected by white matter tracts, together forming one integrative complex network. In this article, we report our investigation about the potential of applying brain connectivity patterns as an aid in diagnosing Alzheimer's disease and Mild Cognitive Impairment (MCI). We performed pattern analysis of graph theoretical measures derived from Diffusion Tensor Imaging (DTI) data representing structural brain networks of 45 subjects, consisting of 15 patients of Alzheimer's disease (AD), 15 patients of MCI, and 15 healthy subjects (CT). We considered pair-wise class combinations of subjects, defining three separate classification tasks, i.e., AD-CT, AD-MCI, and CT-MCI, and used an ensemble classification module to perform the classification tasks. Our ensemble framework with feature selection shows a promising performance with classification accuracy of 83.3% for AD vs. MCI, 80% for AD vs. CT, and 70% for MCI vs. CT. Moreover, our findings suggest that AD can be related to graph measures abnormalities at Brodmann areas in the sensorimotor cortex and piriform cortex. In this way, node redundancy coefficient and load centrality in the primary motor cortex were recognized as good indicators of AD in contrast to MCI. In general, load centrality, betweenness centrality, and closeness centrality were found to be the most relevant network measures, as they were the top identified features at different nodes. The present study can be regarded as a “proof of concept” about a procedure for the classification of MRI markers between AD dementia, MCI, and normal old individuals, due to the small and not well-defined groups of AD and MCI patients. Future studies with larger samples of subjects and more sophisticated patient exclusion criteria are necessary toward the development of a more precise technique for clinical diagnosis."
+DisTeam: A decision support tool for surgical team selection,Elsevier,"Objective
+Surgical service providers play a crucial role in the healthcare system. Amongst all the influencing factors, surgical team selection might affect the patients’ outcome significantly. The performance of a surgical team not only can depend on the individual members, but it can also depend on the synergy among team members, and could possibly influence patient outcome such as surgical complications. In this paper, we propose a tool for facilitating decision making in surgical team selection based on considering history of the surgical team, as well as the specific characteristics of each patient.
+
+Methods
+DisTeam (a decision support tool for surgical team selection) is a metaheuristic framework for objective evaluation of surgical teams and finding the optimal team for a given patient, in terms of number of complications. It identifies a ranked list of surgical teams personalized for each patient, based on prior performance of the surgical teams. DisTeam takes into account the surgical complications associated with teams and their members, their teamwork history, as well as patient’s specific characteristics such as age, body mass index (BMI) and Charlson comorbidity index score.
+
+Results
+We tested DisTeam using intra-operative data from 6065 unique orthopedic surgery cases. Our results suggest high effectiveness of the proposed system in a health-care setting. The proposed framework converges quickly to the optimal solution and provides two sets of answers: a) The best surgical team over all the generations, and b) The best population which consists of different teams that can be used as an alternative solution. This increases the flexibility of the system as a complementary decision support tool.
+
+Conclusion
+DisTeam is a decision support tool for assisting in surgical team selection. It can facilitate the job of scheduling personnel in the hospital which involves an overwhelming number of factors pertaining to patients, individual team members, and team dynamics and can be used to compose patient-personalized surgical teams with minimum (potential) surgical complications."
+An intelligent hybrid multi-criteria hotel recommender system using explicit and implicit feedbacks,Concordia University,"Recommender systems, also known as recommender engines, have become an important research area and are now being applied in various fields. In addition, the techniques behind the recommender systems have been improved over the time. In general, such systems help users to find their required products or services (e.g. books, music) through analyzing and aggregating other users' activities and behavior, mainly in form of reviews and making the best recommendations. The recommendations can facilitate user's decision-making process. Despite the wide literature on the topic, using multiple data sources of different types as the input has not been widely studied. Recommender systems can benefit from the high availability of digital data to collect the input data of different types which implicitly or explicitly help the system to improve its accuracy. Moreover, most of the existing research in this area is based on single rating measures in which a single rating is used to link users to items. This paper proposes a highly accurate hotel recommender system, implemented in various layers. Using multi-aspect rating system and benefitting from large-scale data of different types, the recommender system suggests hotels that are personalized and tailored for the given user. The system employs natural language processing and topic modeling techniques to assess the sentiment of the users' reviews and extract implicit features. The entire recommender engine contains multiple subsystems, namely users clustering, matrix factorization module, and hybrid recommender system. Each subsystem contributes to the final composite set of recommendations through covering a specific aspect of the problem. The accuracy of the proposed recommender system has been tested intensively where the results confirm the high performance of the system."
